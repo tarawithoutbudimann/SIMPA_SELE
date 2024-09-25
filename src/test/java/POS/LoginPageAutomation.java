@@ -13,6 +13,7 @@ public class LoginPageAutomation {
         WebDriver driver = new ChromeDriver();
         driver.get("https://simpa.datains.id/login");
         WebElement usernamefield = driver.findElement(By.id("username"));
+        //try
         usernamefield.sendKeys(new CharSequence[]{"it.cgk"});
         WebElement passwordfield = driver.findElement(By.id("password"));
         passwordfield.sendKeys(new CharSequence[]{"Angkasapura001"});
